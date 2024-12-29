@@ -1,0 +1,179 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2 {
+    color: #1d1d1d;
+    font-weight: bold;
+}
+
+/* Header Styles */
+header {
+    background-color: #1d3557;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a8dadc;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    color: #1d3557;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Latest News Section */
+.latest-news {
+    margin-bottom: 40px;
+}
+
+.latest-news h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #1d3557;
+}
+
+.latest-news ul {
+    list-style-type: none;
+}
+
+.latest-news ul li {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.latest-news ul li a {
+    font-size: 1.2rem;
+    color: #1d3557;
+    display: block;
+    transition: color 0.3s;
+}
+
+.latest-news ul li a:hover {
+    color: #457b9d;
+}
+
+/* Market Analysis Section */
+.market-analysis {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#price-feed {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #a8dadc;
+    border-radius: 8px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1d3557;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .intro h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .latest-news ul li {
+        padding: 15px;
+    }
+
+    .market-analysis {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
